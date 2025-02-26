@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    width: 36px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-family: "Roboto", serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+body {
+    background-color: #e7e7e7;
+    margin-top: 100px;
+}
+
+.conteiner {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+form button {
+    background-color: #009426;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px;
+}
+
+form button:hover {
+    background-color: #29a247;
+}
+
+form input {
+    font-family: "Roboto", serif;
+    font-size: 24px;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+
+form #nota-atividade {
+    width: 90px;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    padding: 16px;
+    border-bottom: 2px solid black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table img {
+    width: 30px;
+}
+
+table td {
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.151);
+}
+
+.resultado {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.aprovado {
+    background-color: #009426;
+}
+
+.reprovado {
+    background-color: red;
+}
