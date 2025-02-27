@@ -50,5 +50,5 @@ function calculaMediaFinal() {
         somaDasNotas += notas[i];
     }
 
-    return somaDasNotas / notas.length;
+    return somaDasNotas/notas.length;
 }
